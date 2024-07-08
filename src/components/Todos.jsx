@@ -20,7 +20,7 @@ function Todos() {
 // {todos.map((todo)=>(
 //     <li key ={todo.id}>
 //     {todo.text}
-//     <button onClick={()=>dispatch(removeTodo())}>
+//     <button onClick={()=>dispatch(removeTodo(todo.id))}>
 //         {/* here we either pass the arrow fucntion bet.n {} or name of func without parantheses if 
 //         // we declare and define then out . since it we pass with parantheses then that func will be called but 
 //         // wa want to call it only when we have clicked  */}
